@@ -1,0 +1,58 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 2em;
+  background-color: #fffafb;
+  text-align: center;
+;
+}
+
+/* STYLE TEXT */
+h1 {
+  margin-top: 1em;
+  font-family: 'Gaegu', cursive;
+  color: #ffabbc;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2em;
+  font-weight: 400; 
+  font-size: 18px;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: inline-flex;
+  margin-top: 1em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 6em;
+}
+
+/* STYLE BUTTON */
+button { 
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px 5px;
+  background-color: #ffabbc;
+  border: 1px solid #fffafb; 
+}
+
+button:hover {
+  background-color: pink; 
+}
+
+button:disabled {
+  opacity: 0.6; 
+}
